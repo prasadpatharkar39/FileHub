@@ -1,0 +1,26 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA3LZGXJKCF6HL2NZQ
+      secret-key: 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
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: s3filehub
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 2000MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
+
