@@ -1,10 +1,10 @@
 cloud:
   aws:
     credentials:
-      access-key: AKIA3LZGXJKCF6HL2NZQ
-      secret-key: RhACLrnfPLg84IShfKlxA7QP1CBsUsHOZ4Di6Wqw
+      access-key: "Your Access Key"
+      secret-key: "Ypur Secret Key"
     region:
-      static: ap-south-1
+      static: "region Name"
     stack:
       auto: false
 
